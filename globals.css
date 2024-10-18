@@ -1,3 +1,21 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@font-face {
+  font-family: 'HeyWow';
+  src: url('src/assets/fonts/HeyWowBook.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'HeyWow';
+  src: url('src/assets/fonts/HeyWowSemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'HeyWow';
+  src: url('src/assets/fonts/HeyWowBold.ttf') format('truetype');
+  font-weight: 700;
+}
+h1 {
+  @apply font-heywow;
+}

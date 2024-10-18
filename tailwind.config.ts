@@ -5,7 +5,12 @@ const config: Config = {
     './src/**/*.{astro,html,js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['HeyWow', 'sans-serif'],
+        'heywow': ['HeyWow', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
