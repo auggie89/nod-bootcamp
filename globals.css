@@ -16,3 +16,10 @@
   src: url('src/assets/fonts/HeyWowBold.ttf') format('truetype');
   font-weight: 700;
 }
+
+@layer base {
+  :root {
+    --white: 0 0% 100%;
+    --background: 99.22, 98.04%, 96.08%;
+  }
+}

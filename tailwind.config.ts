@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type {Config} from 'tailwindcss'
 
 const config: Config = {
   content: [
@@ -10,6 +10,9 @@ const config: Config = {
         sans: ['HeyWow', 'sans-serif'],
         'heywow': ['HeyWow', 'sans-serif']
       },
+      colors: {
+        background: 'hsl(var(--background))'
+      }
     },
   },
   plugins: [],
