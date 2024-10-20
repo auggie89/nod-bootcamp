@@ -12,7 +12,8 @@ const config: Config = {
       },
       colors: {
         background: 'hsl(var(--background))',
-        'cool-horizon': 'hsl(var(--cool-horizon))'
+        'cool-horizon': 'hsl(var(--cool-horizon))',
+        'primary-black': 'hsl(var(--primary-black))'
       }
     },
   },
