@@ -11,7 +11,8 @@ const config: Config = {
         'heywow': ['HeyWow', 'sans-serif']
       },
       colors: {
-        background: 'hsl(var(--background))'
+        background: 'hsl(var(--background))',
+        'cool-horizon': 'hsl(var(--cool-horizon))'
       }
     },
   },
